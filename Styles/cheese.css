@@ -1,0 +1,500 @@
+#top-a-content {
+  position: relative;
+  left: 75%;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.navbar-nav {
+  margin-left: -36px;
+}
+#bgclr {
+  background-color: #aa14f0;
+}
+#main-content {
+  padding: 1% 6%;
+  background-color: #bc8cf2;
+  color: #000;
+}
+.navbar-toggler {
+  background-color: #bc8cf2;
+}
+header h1 {
+  position: relative;
+  left: 1rem;
+}
+#biopic {
+  position: relative;
+  left: 5%;
+}
+.img-fluid {
+  max-width: none;
+}
+#quotes {
+  font-family: "Source Sans 3";
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+button h3 {
+  text-align: left;
+  font-family: "Source Sans 3";
+  font-weight: bolder;
+  color: #eee;
+}
+.row {
+  text-align: center;
+}
+.about p {
+  font-family: "Source Sans 3";
+  font-weight: bold;
+}
+h4 {
+  font-family: "Source Sans 3";
+  font-weight: bold;
+  position: relative;
+  color: #42065e;
+}
+.midinfo1 {
+  padding: 5%;
+  position: relative;
+}
+.midinfo2 {
+  padding: 5%;
+  position: relative;
+  bottom: 20px;
+}
+.about {
+  background: #bc8cf2;
+  background-image: -webkit-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -moz-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -ms-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -o-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: linear-gradient(to bottom, #bc8cf2, #aa14f0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #4b0a69;
+  font-size: 20px;
+  padding: 40px 50px 0px 50px;
+  margin: 100px auto 100px auto;
+  text-decoration: none;
+  border: none;
+  width: 75%;
+  height: 375px;
+  cursor: pointer;
+}
+.about:hover {
+  background: #aa14f0;
+  background-image: -webkit-linear-gradient(top, #aa14f0, #bc8cf2);
+  background-image: -moz-linear-gradient(top, #aa14f0, #bc8cf2);
+  background-image: -ms-linear-gradient(top, #aa14f0, #bc8cf2);
+  background-image: -o-linear-gradient(top, #aa14f0, #bc8cf2);
+  background-image: linear-gradient(to bottom, #aa14f0, #bc8cf2);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 22vh;
+  background: #aa14f0;
+  overflow: hidden;
+}
+section .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("wave.png");
+  background-size: 1000px 100px;
+  animation: animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+section .wave.wave2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("wave.png");
+  background-size: 1000px 100px;
+  animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+section.wave.wave3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("wave.png");
+  background-size: 1000px 100px;
+  animation: animate 15s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+section .wave.wave4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("wave.png");
+  background-size: 1000px 100px;
+  animation: animate2 15s linear infinite;
+  z-index: 997;
+  opacity: 0.1;
+  animation-delay: -1s;
+  bottom: 20px;
+}
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+@keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
+#page-1 h1 {
+  text-align: center;
+}
+.carousel-item img {
+  width: 100%;
+  height: 70%;
+}
+/* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  padding-right: 0%;
+  text-align: center;
+  background-color: #aa14f0;
+  color: #000;
+}
+header {
+  padding: 50px;
+}
+header h1 {
+  float: left;
+}
+header ol {
+  position: relative;
+  bottom: 30px;
+}
+header ol li {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  color: #000;
+  text-align: right;
+  position: relative;
+  left: 50%;
+  padding: 0% 7% 0% 7%;
+}
+hr {
+  position: relative;
+  bottom: 120px;
+  border-top: 1px solid black;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px;
+}
+
+.hbody div p {
+  font-family: sans-serif;
+  text-align: left;
+  width: 25%;
+  position: relative;
+  right: 65px;
+  top: 103px;
+  font-size: xx-large;
+}
+.hbody div img {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-align: right;
+  border-radius: 23px;
+  width: 37%;
+  position: relative;
+  bottom: 255px;
+  left: 97px;
+}
+.middle {
+  background-color: rgba(0, 0, 0);
+  width: 50%;
+  margin: 100px auto 100px auto;
+  padding: 50px;
+  border-radius: 22px;
+  position: relative;
+  bottom: 150px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.middle h3,
+.middle p {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-align: left;
+  color: #000;
+  position: relative;
+  top: 25px;
+}
+.middle h1 {
+  text-shadow: 0 0 5px rgba(243, 243, 240, 0.671);
+}
+.skill-img1 {
+  margin-right: 20px;
+  padding: 5px;
+  width: 25%;
+  float: left;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  border-radius: 360px;
+}
+.skill-img2 {
+  margin-left: 20px;
+  width: 25%;
+  padding: 5px;
+  float: right;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  border-radius: 360px;
+}
+.my-info1,
+.my-info2 {
+  margin: 100px auto 100px auto;
+  animation: moving 1s linear;
+}
+@keyframes moving {
+  0% {
+    opacity: 0;
+    top: 40px;
+  }
+  25% {
+    opacity: 0.2;
+    top: 30px;
+  }
+  50% {
+    opacity: 0.5;
+    top: 10px;
+  }
+  75% {
+    opacity: 0.7;
+    top: 5px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+.contact {
+  background: #bc8cf2;
+  background-image: -webkit-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -moz-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -ms-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -o-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: linear-gradient(to bottom, #bc8cf2, #aa14f0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 100px auto 100px auto;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.contact:hover {
+  background: #000;
+  background-image: -webkit-linear-gradient(top, #000, #bc8cf2);
+  background-image: -moz-linear-gradient(top, #000, #bc8cf2);
+  background-image: -ms-linear-gradient(top, #000, #bc8cf2);
+  background-image: -o-linear-gradient(top, #000, #bc8cf2);
+  background-image: linear-gradient(to bottom, #000, #bc8cf2);
+  text-decoration: none;
+  box-shadow: 0 0 6px rgb(255, 230, 4);
+}
+ul {
+  padding: 40px 20px 40px 20px;
+  background-color: #494949;
+  display: flex;
+  list-style: none;
+}
+ul img {
+  width: 10%;
+  margin: 10px 20px 10px 20px;
+}
+ol {
+  display: flex;
+  list-style: none;
+  padding: 50px;
+}
+ol li {
+  padding: 2%;
+}
+ol li a {
+  text-decoration: none;
+  color: white;
+}
+a img {
+  border-radius: 28px;
+}
+a:hover {
+  text-shadow: whitesmoke;
+  text-size-adjust: 2px;
+}
+.about {
+  background: #bc8cf2;
+  background-image: -webkit-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -moz-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -ms-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: -o-linear-gradient(top, #bc8cf2, #aa14f0);
+  background-image: linear-gradient(to bottom, #bc8cf2, #aa14f0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #e0bb20;
+  font-size: 20px;
+  padding: 40px 20px 70px 20px;
+  margin: 100px auto 100px auto;
+  text-decoration: none;
+  border: none;
+}
+.about:hover {
+  background: #000;
+  background-image: -webkit-linear-gradient(top, #000, #bc8cf2);
+  background-image: -moz-linear-gradient(top, #000, #bc8cf2);
+  background-image: -ms-linear-gradient(top, #000, #bc8cf2);
+  background-image: -o-linear-gradient(top, #000, #bc8cf2);
+  background-image: linear-gradient(to bottom, #000, #bc8cf2);
+  box-shadow: 0 0 6px rgb(255, 230, 4);
+  text-decoration: none;
+}
+/*section {
+  position: relative;
+  width: 100%;
+  height: 27vh;
+  background: #000;
+  overflow: hidden;
+}
+section .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("wave.png");
+  background-size: 1000px 100px;
+  animation: animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+section .wave.wave2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("wave.png");
+  background-size: 1000px 100px;
+  animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+section.wave.wave3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("wave.png");
+  background-size: 1000px 100px;
+  animation: animate 15s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+section .wave.wave4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("wave.png");
+  background-size: 1000px 100px;
+  animation: animate2 15s linear infinite;
+  z-index: 997;
+  opacity: 0.1;
+  animation-delay: -1s;
+  bottom: 20px;
+}
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+@keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
+.name,
+h2,
+h3 {
+  position: relative;
+  line-height: 60px;
+  font-family: "Gwendolyn";
+  font-size: 30px;
+  color: #e0bb20;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.name p {
+  font-family: sans-serif;
+  position: relative;
+  left: 25px;
+  font-size: 25px;
+}
+.webdevimg {
+  position: relative;
+  top: 30px;
+  right: 30px;
+}
+.bottom-cloud {
+  position: absolute;
+}
+#bottomcloud2 {
+  margin-top: 50px;
+}
+.top-cloud {
+  position: relative;
+  left: 150px;
+  top: 20px;
+}*/
